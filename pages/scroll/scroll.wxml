@@ -1,0 +1,10 @@
+<!--pages/scroll/scroll.wxml-->
+<!-- 1.水平滚动  scroll-x -->
+  <!-- view是块级元素 -->
+<scroll-view class="con" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+<!-- 2.垂直滚动  srcoll-y -->
+<scroll-view class="con2" scroll-y>
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>

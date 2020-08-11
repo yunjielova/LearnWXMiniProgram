@@ -1,3 +1,6 @@
 <!--home.wxml-->
 <text>home.wxml</text>
 <view>{{name}}</view>
+
+<!-- 使用自定义组件 -->
+<my-cpn></my-cpn>

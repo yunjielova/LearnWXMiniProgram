@@ -1,0 +1,22 @@
+/* pages/scroll/scroll.wxss */
+.con{
+  background-color: blueviolet;
+  white-space: nowrap;
+}
+.item1{
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  margin: 10px;
+  display: inline-block;
+}
+
+.con2{
+  background-color: cyan;
+  height: 200px;
+}
+.item2{
+  height: 100px;
+  background-color: darkorange;
+  margin: 10px;
+}

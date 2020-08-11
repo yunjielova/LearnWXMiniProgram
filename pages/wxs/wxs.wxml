@@ -1,0 +1,19 @@
+<!-- <wxs module="info">
+	var message = "hello";
+	var name = "chen";
+
+	var sum = function(num1, num2) {
+		return num1 + num2
+	}
+	//模块化导出
+	module.exports = {
+		message: message,
+    name:name,
+    sum:sum
+	}
+</wxs> -->
+
+<wxs src="../../wxs/info.wxs" module="info" />
+
+<view>{{info.message}}</view>
+<view>{{info.sum(12,13)}}</view>

@@ -1,0 +1,14 @@
+<image src="/assets/logo.jpg"></image>
+
+<!-- 获取相册中的图片 -->
+<!-- <button bindtap="handleChooseAlbum">选中图片</button>  -->
+<!-- <image src="{{imagePath}}"></image> -->
+
+<!-- bindload 监听图片加载完成 -->
+<!-- <view>--------------------------------------</view>
+<image wx:for="{{20}}" src="/assets/logo.jpg"
+       bindload="handload" 
+       lazy-load="{{true}}"></image> -->
+
+<!-- show-menu-by-longpress 长按图片显示识别小程序码菜单 -->
+<!-- <image src="/assets/logo.jpg" show-menu-by-longpress="{{true}}"></image> -->
